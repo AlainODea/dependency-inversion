@@ -5,8 +5,8 @@ repositories {
 }
 
 dependencies {
-    testCompile project(':apis:example-api')
-    testCompile project(':impls:example-impl')
-    testCompile 'com.google.inject:guice:3.0'
+    compile project(':apis:example-api')
+    compile project(':impls:example-impl')
+    compile 'com.google.inject:guice:3.0'
     testCompile 'junit:junit:4.12'
 }
