@@ -1,0 +1,12 @@
+apply plugin: 'java'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile project(':apis:example-api')
+    testCompile project(':impls:example-impl')
+    testCompile 'com.google.inject:guice:3.0'
+    testCompile 'junit:junit:4.12'
+}
